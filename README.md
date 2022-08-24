@@ -124,4 +124,4 @@ Este projeto está sob a licença (Aquisição perpétua).
 - Agradecimento a todo colaborador deste projeto.
 
 ---
-Feito com ❤️ por [AlwaysCodder](https://github.com/Alwayscodder) 😊
+Feito com ❤️ por [AlwaysCodding](https://github.com/AlwaysCodding) 😊
