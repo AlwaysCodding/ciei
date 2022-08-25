@@ -1,6 +1,6 @@
 /* INICIO HTML */
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 /* FIM HTML */
 
@@ -15,7 +15,7 @@ body {
 }
 /* FIM CORPO */
 
-/* RESET CORPO */
+/* INICIO RESETA ESTILO NAVEGADOR */
 ul {
     list-style: none;
 }
@@ -23,11 +23,9 @@ ul {
 a {
     text-decoration: none;
 }
+/* FIM RESETA ESTILO NAVEGADOR */
 
-html {
-    scroll-behavior: smooth;
-}
-
+/* INICIO COMPONETIZAÇÃO DE TODA PÁGINA */
 h1,
 h2,
 h3 {
@@ -39,34 +37,15 @@ h1 {
     -webkit-margin-after: 0.7em;
 }
 
-#programacao {
-    border: solid 1px green;
-    margin-bottom: 10px;
+p {
+    text-align: center;
+    margin: 40px 20px;
 }
+/* FIM COMPONETIZAÇÃO DE TODA PÁGINA */
 
-#sobre {
-    border: solid 1px green;
-    margin-bottom: 10px;
-}
+/* INICIO PADRÃO SEÇÃO */
 
-#eventos-anteriores {
-    border: solid 1px green;
-    margin-bottom: 10px;
-}
-
-#inscricao {
-    border: solid 1px green;
-    margin-bottom: 10px;
-}
-
-#rodape {
-    border: solid 1px red;
-}
-
-#mapa {
-    height: 100%;
-}
-
+/* FIM PADRÃO SEÇÃO */
 .titulo {
     display: flex;
     justify-content: center;
@@ -85,8 +64,11 @@ h1 {
     flex-grow: 1;
 }
 
+// RESPONSIVIDADE INICIO //
 @media only screen and (max-width: 900px) {
     #location {
         height: 100vh;
     }
 }
+
+// RESPONSIVIDADE FIM //

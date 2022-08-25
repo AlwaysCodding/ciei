@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="estilos/global.css"> <!-- CSS GLOBAL -->
     <link rel="stylesheet" href="estilos/menu.css"> <!-- CSS MENU -->
     <link rel="stylesheet" href="estilos/inicio.css"> <!-- CSS INICIO -->
-    <link rel="stylesheet" href="estilos/localizacao.css"> <!-- CSS LOCALIZACAO -->
+    <link rel="stylesheet" href="estilos/localizacao.css"> <!-- CSS LOCALIZAÇÃO -->
+    <link rel="stylesheet" href="estilos/rodape.css"> <!-- CSS RODAPÉ -->
     <script type="module" src="scripts/map.js"></script>
     <script src="https://kit.fontawesome.com/e8780605b4.js" crossorigin="anonymous"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -37,63 +38,88 @@
     <main id="inicio">
         <div class="inicio">
             <div class="banner">
-                <img src="https://images.unsplash.com/photo-1660084538570-e1e5250dbe96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                <img class="imagem"
+                    src="https://images.unsplash.com/photo-1660084538570-e1e5250dbe96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     alt="Banner de Apresentação do Evento CIEI">
             </div>
             <div class="botoes">
-                <a href="#programacao">Programação</a>
-                <a href="#inscricao">Realizar Inscrição</a>
+                <a class="button" href="#programacao">Programação</a>
+                <a class="button" href="#inscricao">Realizar Inscrição</a>
             </div>
         </div>
     </main>
 
     <section id="programacao">
-        <h1>Programação</h1>
+        <div class="titulo">
+            <h1>Programação</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
+            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
+            fugit et vel.</p>
     </section>
 
     <section id="localizacao">
         <div class="titulo">
             <h1>Localização</h1>
         </div>
-        <p>O evendo acontecerá no endereço Rua do evento, número tal, bairro do evento, Cidade - UF</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
+            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
+            fugit et vel.</p>
         <div id="mapa"></div>
     </section>
 
     <section id="sobre">
-        <h1>Sobre</h1>
+        <div class="titulo">
+            <h1>Sobre</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
+            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
+            fugit et vel.</p>
     </section>
 
     <section id="eventos-anteriores">
-        <h1>Eventos Anteriores</h1>
+        <div class="titulo">
+            <h1>Eventos Anteriores</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
+            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
+            fugit et vel.</p>
     </section>
 
     <section id="inscricao">
-        <h1>Inscrição</h1>
+        <div class="titulo">
+            <h1>Inscrição</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
+            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
+            fugit et vel.</p>
     </section>
 
-    <section id="rodape">
-        <h1>Rodapé</h1>
-        <div class="redes-social">
-            <a href="/" target="_blank">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href="/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="/" target="_blank">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
+    <footer class="section">
+        <div class="container-grid">
+            <div class="brand">
+                <a href="#home" class="logo logo-alt">Evento<span>CIEI</span></a>
+                <p>©2022 Evento CIEI.</p>
+                <p>Todos os direitos reservados.</p>
+            </div>
+            <div class="social grid">
+                <a href="#">
+                    <i class="fa-brands fa-square-facebook" target="_blank"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram" target="_blank"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube" target="_blank"></i>
+                </a>
+            </div>
         </div>
-        <div class="copyright">
-            <h3>Todos os direitos reservados ao <a href="/">Evento CIEI</a></h3>
-        </div>
-        <div class="always">
-            <h3>Desenvolvido por | <a href="/" target="_blank">AlwaysCodding</a></h3>
-        </div>
-    </section>
+    </footer>
+
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD61usoY29O0daFlqam7nmYQhDdkMXfY9Y&callback=initMap&v=weekly"
-        defer></script>
+        defer>
+        </script>
 </body>
 
 </html>

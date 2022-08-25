@@ -1,8 +1,8 @@
 #localizacao {
     height: 50vh;
+    margin-bottom: 200px;
 }
 
-#localizacao p {
-    margin: 40px 20px;
-    text-align: center;
+#mapa {
+    height: 100%;
 }
