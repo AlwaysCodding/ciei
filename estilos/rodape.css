@@ -1,4 +1,17 @@
-.section {
+.secao-rodape {
   background-color: var(--base-color);
   height: 200px;
+  margin-bottom: -10px;
+}
+
+.colunas {
+
+}
+
+.coluna-texto, .coluna-icones{
+  text-align: center;
+}
+
+.logo-rodape {
+  text-color: #F1FAF6;
 }
