@@ -1,8 +1,13 @@
 #localizacao {
-    height: 50vh;
+    height: 70vh;
     margin-bottom: 200px;
 }
 
 #mapa {
     height: 100%;
+}
+#content {
+    width: 150px;
+    text-align:center;
+    font-size: 10px;
 }
