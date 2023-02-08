@@ -1,6 +1,6 @@
 
 .banner {
-  height: 80vh;
+  height: 70vh;
   position: relative;
   background-color: var(--base-color);
   overflow: hidden;
@@ -36,6 +36,18 @@
   padding: 0 2rem;
   border-radius: 0.25rem;
   font: 500 1rem var(--body-font);
+  transition: background 0.3s;
+}
+
+.button-small {
+  background-color: hsl(var(--hue) 36% 30%);
+  color: var(--text-color-light);
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 0.25rem;
+  font: 500 .8rem var(--body-font);
   transition: background 0.3s;
 }
 
