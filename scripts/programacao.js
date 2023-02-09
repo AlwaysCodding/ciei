@@ -37,6 +37,7 @@ palestrantes.forEach((palestrante) => {
   image.src = palestrante.image;
 
   const info = document.createElement("div");
+  info.classList.add("info");
 
   const name = document.createElement("h2");
   name.textContent = palestrante.name;

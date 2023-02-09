@@ -9,8 +9,9 @@
     display: flex;
     width: 80%;
     margin: 20px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    /* border: 1px solid gray; */
+    /* border-radius: 10px; */
+    background-color: #D9D9D9;
     overflow: hidden;
   }
 
@@ -18,11 +19,15 @@
     width: 200px;
     height: 200px;
     object-fit: contain;
-    border-radius: 10px 0 0 10px;
+    border: 8px solid #D9D9D9;
+    transform: rotate(2deg);    
+    margin-right: 2px;
   }
 
-  .card div {
+  .info {
     padding: 10px;
+    background-color: #fff;
+    margin-left: 2px;
   }
 
   .card h2 {
