@@ -1,10 +1,10 @@
 .secao-rodape {
   background-color: var(--base-color);
-  height: 250px;
+  height: 300px;
   color: #F1FAF6;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 
 .coluna-texto, .coluna-icones{
@@ -13,6 +13,10 @@
 
 .coluna-texto{
   margin-top: 50px;
+}
+
+.coluna-icones{
+  margin-left: 200px;
 }
 
 #icone-instagram, #icone-youtube{
