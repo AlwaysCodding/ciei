@@ -1,17 +1,37 @@
 .secao-rodape {
   background-color: var(--base-color);
-  height: 200px;
-  margin-bottom: -10px;
-}
-
-.colunas {
-
+  height: 250px;
+  color: #F1FAF6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .coluna-texto, .coluna-icones{
   text-align: center;
 }
 
-.logo-rodape {
-  text-color: #F1FAF6;
+.coluna-texto{
+  margin-top: 50px;
+}
+
+#icone-instagram, #icone-youtube{
+  color: #F1FAF6;
+  font-size: 40px;
+}
+
+.logo-rodape{
+  color: #F1FAF6;
+  font-size: 20px;
+}
+
+.logo-rodape-span{
+  color: #F1FAF6;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.texto-rodape{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
