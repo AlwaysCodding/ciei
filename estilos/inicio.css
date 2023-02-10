@@ -37,6 +37,8 @@
   border-radius: 0.25rem;
   font: 500 1rem var(--body-font);
   transition: background 0.3s;
+  display: flex;
+  gap: 8px;
 }
 
 .button-small {
