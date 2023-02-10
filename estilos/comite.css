@@ -1,0 +1,16 @@
+.comite-organizador, .organizador-foto-nome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.organizador-foto {
+  width: 150px;
+  height: 150px;
+}
+
+.lista-comite-cientifico{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

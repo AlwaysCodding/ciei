@@ -1,125 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evento CCE</title>
-    <link rel="stylesheet" href="estilos/global.css"> <!-- CSS GLOBAL -->
-    <link rel="stylesheet" href="estilos/menu.css"> <!-- CSS MENU -->
-    <link rel="stylesheet" href="estilos/inicio.css"> <!-- CSS INICIO -->
-    <link rel="stylesheet" href="estilos/localizacao.css"> <!-- CSS LOCALIZAÇÃO -->
-    <link rel="stylesheet" href="estilos/programacao.css"> <!-- CSS PROGRAMAÇÃO -->
-    <link rel="stylesheet" href="estilos/rodape.css"> <!-- CSS RODAPÉ -->
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/global.css" />
+    <!-- CSS GLOBAL -->
+    <link rel="stylesheet" href="estilos/menu.css" />
+    <!-- CSS MENU -->
+    <link rel="stylesheet" href="estilos/inicio.css" />
+    <!-- CSS INICIO -->
+    <link rel="stylesheet" href="estilos/localizacao.css" />
+    <!-- CSS LOCALIZAÇÃO -->
+    <link rel="stylesheet" href="estilos/programacao.css" />
+    <!-- CSS PROGRAMAÇÃO -->
+    <link rel="stylesheet" href="estilos/comite.css" />
+    <!-- CSS COMITÊ -->
+    <link rel="stylesheet" href="estilos/rodape.css" />
+    <!-- CSS RODAPÉ -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" src="scripts/map.js"></script>
     <script type="module" src="scripts/programacao.js"></script>
-    <script src="https://kit.fontawesome.com/e8780605b4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e8780605b4.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="cabecalho">
-        <nav class="container">
-            <a class="logo" href="#">Evento <span>CCE</span></a>
-            <a class="button-small" href="https://www.event3.cce.com.br" target="_blank">Realizar Inscrição</a>
-            <div class="menu">
-                <ul class="grid">
-                    <li><a class="title" href="#inicio">Início</a></li>
-                    <li><a class="title" href="#programacao">Programação</a></li>
-                    <li><a class="title" href="#localizacao">Localização</a></li>
-                    <li><a class="title" href="#sobre">Sobre</a></li>
-                    <li><a class="title" href="#eventos-anteriores">Eventos Anteriores</a></li>
-                    <li><a class="title" href="#inscricao">Inscrição</a></li>
-                </ul>
-            </div>
-            <div class="toggle icon-menu"></div>
-            <div class="toggle icon-close"></div>
-        </nav>
+      <nav class="container">
+        <a class="logo" href="#">Evento <span>CCE</span></a>
+        <a
+          class="button-small"
+          href="https://www.event3.cce.com.br"
+          target="_blank"
+          >Realizar Inscrição</a
+        >
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#inicio">Início</a></li>
+            <li><a class="title" href="#programacao">Programação</a></li>
+            <li><a class="title" href="#localizacao">Localização</a></li>
+            <li><a class="title" href="#sobre">Sobre</a></li>
+            <li><a class="title" href="#comite">Comitê</a></li>
+            <li><a class="title" href="#inscricao">Inscrição</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
     </header>
 
     <main id="inicio">
-        <div class="inicio">
-            <div class="banner">
-                <img class="imagem" src="https://ejcitabuna.com.br/banner.jpg"
-                    alt="Banner de Apresentação do Evento CCE">
-                <div class="botoes">
-                    <h1><span style="font-family:serif;">I</span> CONGRESSO DE CIÊNCIAS DA EDUCAÇÃO: CONSTRUINDO
-                        PROPOSTAS NA PESQUISA, ENSINO E NA EXTENSÃO CCE – UESC / 2023</h1>
-                    <a class="button" href="#programacao">Programação</a>
-                    <a class="button" href="https://www.event3.cce.com.br" target="_blank">Realizar Inscrição</a>
-                </div>
-            </div>
-
+      <div class="inicio">
+        <div class="banner">
+          <img
+            class="imagem"
+            src="https://ejcitabuna.com.br/banner.jpg"
+            alt="Banner de Apresentação do Evento CCE"
+          />
+          <div class="botoes">
+            <h1>
+              <span style="font-family: serif">I</span> CONGRESSO DE CIÊNCIAS DA
+              EDUCAÇÃO: CONSTRUINDO PROPOSTAS NA PESQUISA, ENSINO E NA EXTENSÃO
+              CCE – UESC / 2023
+            </h1>
+            <a class="button" href="#programacao">Programação</a>
+            <a
+              class="button"
+              href="https://www.event3.cce.com.br"
+              target="_blank"
+              >Realizar Inscrição</a
+            >
+          </div>
         </div>
+      </div>
     </main>
 
     <section id="programacao1">
-        <div class="titulo">
-            <h1>Programação</h1>
-        </div>
-        <div id="programacao"></div>
+      <div class="titulo">
+        <h1>Programação</h1>
+      </div>
+      <div id="programacao"></div>
     </section>
 
     <section id="localizacao">
-        <div class="titulo">
-            <h1>Localização</h1>
-        </div>
-        <p> O evento acontecerá no Auditório Paulo Souto, localizado na Universidade Estadual de Santa Cruz -
-            Uesc<br>Campus Soane Nazaré de Andrade, Rodovia Jorge Amado, Km 16, Bairro Salobrinho CEP 45662-900.
-            Ilhéus-Bahia</p>
-        <div id="mapa"></div>
+      <div class="titulo">
+        <h1>Localização</h1>
+      </div>
+      <p>
+        O evento acontecerá no Auditório Paulo Souto, localizado na Universidade
+        Estadual de Santa Cruz - Uesc<br />Campus Soane Nazaré de Andrade,
+        Rodovia Jorge Amado, Km 16, Bairro Salobrinho CEP 45662-900.
+        Ilhéus-Bahia
+      </p>
+      <div id="mapa"></div>
     </section>
 
     <section id="sobre">
-        <div class="titulo">
-            <h1>Sobre</h1>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
-            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
-            fugit et vel.</p>
+      <div class="titulo">
+        <h1>Sobre</h1>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        ipsum animi ipsa tenetur alias repellat harum ex consequatur obcaecati
+        maiores? Explicabo perferendis, omnis sunt magnam blanditiis
+        necessitatibus fugit et vel.
+      </p>
     </section>
 
-    <section id="eventos-anteriores">
-        <div class="titulo">
-            <h1>Eventos Anteriores</h1>
+    <section id="comite">
+      <div class="titulo">
+        <h1>Comitê Organizador</h1>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        ipsum animi ipsa tenetur alias repellat harum ex consequatur obcaecati
+        maiores? Explicabo perferendis, omnis sunt magnam blanditiis
+        necessitatibus fugit et vel.
+      </p>
+
+      <div class="comite-organizador">
+        <div class="organizador-foto-nome">
+          <img
+            src="https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/genigleide.png"
+            alt="Profª Drª Genigleide Santos da Hora – UESC."
+            class="organizador-foto"
+          />
+          <p><strong>Profª Drª Genigleide Santos da Hora – UESC.</strong></p>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
-            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
-            fugit et vel.</p>
+
+        <div class="organizador-foto-nome">
+          <img
+            src="https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/genigleide.png"
+            alt="Profª Drª Jussara Tânia Silva Moreira – UESC."
+            class="organizador-foto"
+          />
+          <p><strong>Profª Drª Jussara Tânia Silva Moreira – UESC.</strong></p>
+        </div>
+      </div>
+
+      <div class="titulo">
+        <h1>Comitê Científico</h1>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        ipsum animi ipsa tenetur alias repellat harum ex consequatur obcaecati
+        maiores? Explicabo perferendis, omnis sunt magnam blanditiis
+        necessitatibus fugit et vel.
+      </p>
+
+      <div class="lista-comite-cientifico">
+        <p>
+          <strong>* Alba Lucia Goncalves *</strong><br />
+          <strong>* Cândida Maria Santos Daltro Alves *</strong><br />
+          <strong>* Claudia Celeste Lima Costa Menezes *</strong><br />
+          <strong>* Cristiane Batista da Silva Santos *</strong><br />
+          <strong>* Elson de Souza Lemos *</strong><br />
+          <strong>* Genigleide Santos da Hora *</strong><br />
+          <strong>* Isac Pimentel Guimarães *</strong><br />
+          <strong>* Jeanes Martins Larchert *</strong><br />
+          <strong>* Joelson Alves Onofre *</strong><br />
+          <strong>* José Valdir Santana *</strong><br />
+          <strong>* Jussara Moreira *</strong><br />
+          <strong>* Kergilêda Ambrósio *</strong><br />
+          <strong>* Leticia Azevedo *</strong><br />
+          <strong>* Lilian Moreira Cruz *</strong><br />
+          <strong>* Livia Andrade Coelho *</strong><br />
+          <strong>* Luzineide Miranda Borges *</strong><br />
+          <strong>* Marcelo Gomes da Silva *</strong><br />
+          <strong>* Maria Aparecida Aguiar *</strong><br />
+          <strong>* Paulo Sergio Souza Vasconcelos *</strong><br />
+          <strong>* Rosenaide Pereira dos Reis Ramos *</strong><br />
+          <strong>* Sandra Cristina Souza Reis Abreu *</strong><br />
+          <strong>* Tereza Genoveva Fontes *</strong>
+        </p>
+      </div>
     </section>
 
     <section id="inscricao">
-        <div class="titulo">
-            <h1>Inscrição</h1>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum animi ipsa tenetur alias repellat
-            harum ex consequatur obcaecati maiores? Explicabo perferendis, omnis sunt magnam blanditiis necessitatibus
-            fugit et vel.</p>
+      <div class="titulo">
+        <h1>Inscrição</h1>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        ipsum animi ipsa tenetur alias repellat harum ex consequatur obcaecati
+        maiores? Explicabo perferendis, omnis sunt magnam blanditiis
+        necessitatibus fugit et vel.
+      </p>
     </section>
 
     <footer class="secao-rodape">
-        <div class="colunas">
-            <div class="coluna-icones">
-                <a id="icone-instagram" href="#">
-                    <i class="fa-brands fa-instagram" target="_blank"></i>
-                </a>
-                <a id="icone-youtube" href="#">
-                    <i class="fa-brands fa-youtube" target="_blank"></i>
-                </a>
-            </div>
-            <div class="coluna-texto">
-                <p class="texto-rodape">Todos os direitos reservados ao <a href="#home" class="logo-rodape">Evento <span class="logo-rodape-span">CCE</span></a></p>
-                <p class="texto-rodape">Desenvolvido por | <a href="#home" class="logo-rodape"><span class="logo-rodape-span">ALWAYSCODDING</span></a></p>
-            </div>
+      <div class="colunas">
+        <div class="coluna-icones">
+          <a id="icone-instagram" href="#">
+            <i class="fa-brands fa-instagram" target="_blank"></i>
+          </a>
+          <a id="icone-youtube" href="#">
+            <i class="fa-brands fa-youtube" target="_blank"></i>
+          </a>
         </div>
+        <div class="coluna-texto">
+          <p class="texto-rodape">
+            Todos os direitos reservados ao
+            <a href="#home" class="logo-rodape"
+              >Evento <span class="logo-rodape-span">CCE</span></a
+            >
+          </p>
+          <p class="texto-rodape">
+            Desenvolvido por |
+            <a href="#home" class="logo-rodape"
+              ><span class="logo-rodape-span">ALWAYSCODDING</span></a
+            >
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD61usoY29O0daFlqam7nmYQhDdkMXfY9Y&callback=initMap&v=weekly"
-        defer>
-    </script>
-</body>
-
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD61usoY29O0daFlqam7nmYQhDdkMXfY9Y&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
 </html>
