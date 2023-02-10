@@ -24,10 +24,17 @@ const palestrantes = [
 
 const root = document.querySelector("#programacao");
 
-const newText = document.createElement("p");
-newText.textContent = "Dia 12/04/2023";
+const divData = document.createElement("div");
+divData.classList.add("divData");
 
-root.append(newText);
+const marcador = document.createElement("div");
+marcador.classList.add("divMarcador");
+
+const newText = document.createElement("p");
+newText.textContent = "Segunda-Feira, 12 de Abril de 2023";
+
+divData.append(marcador, newText);
+root.append(divData);
 
 palestrantes.forEach((palestrante) => {
   const card = document.createElement("div");
