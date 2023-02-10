@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.organizador-foto-nome{
+  margin-right: 10px;
+}
+
 .organizador-foto {
   width: 100px;
   height: 100px;
