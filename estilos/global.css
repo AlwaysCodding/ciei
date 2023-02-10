@@ -40,7 +40,8 @@ h1 {
 
 p {
     text-align: center;
-    margin: 40px 20px;
+    margin: 40px auto;
+    max-width: 1000px;
 }
 /* FIM COMPONETIZAÇÃO DE TODA PÁGINA */
 
