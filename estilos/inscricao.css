@@ -1,0 +1,8 @@
+.opcoesInscricao {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 40px auto 40px auto;
+    flex-wrap: wrap;
+    gap:20px;
+}

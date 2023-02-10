@@ -5,6 +5,8 @@
 
 #mapa {
     height: 100%;
+    border-top: 8px solid #D9D9D9;
+    border-bottom: 8px solid #D9D9D9;
 }
 #content {
     width: 150px;
