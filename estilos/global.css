@@ -38,7 +38,7 @@ h1 {
     -webkit-margin-after: 0.7em;
 }
 
-p {
+p, pre {
     text-align: center;
     margin: 40px auto;
     max-width: 1000px;
