@@ -16,3 +16,10 @@
 p {
   text-align: left;
 }
+
+@media (max-width: 480px) {
+  .comite-organizador{
+    display: inline;
+    font-size: 14px;
+  }
+}
