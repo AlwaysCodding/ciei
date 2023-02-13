@@ -40,6 +40,20 @@ const palestrantes = [
     description:
       "Ativista do Movimento Quilombola da Bahia. Pós-Doutoranda em Educação (IEA/USP). Doutora em Educação e Contemporaneidade (PPGEduc/UNEB). Fez Doutorado Sanduíche no Instituto Superior de Ciências da Educação-ISCED/Luanda, como bolsista PDSE/CAPES. Formada em Pedagogia. Professora de História da África no Ensino Fundamental II do Município de Nazaré/BA. Professora Colaboradora no Departamento de Línguas e Literaturas Africanas-ISCED/Luanda; da Cátedra UNESCO de Estudios Afro-Andinos de la Universidad Andina Simón Bolívar (UASB/Quito) e da Universidad Nacional de Mar Del Plata (UNMDP/Argentina).",
   },
+  {
+    name: "Prof. Neurivaldo José de Guzzi Filho",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/neurivaldo.png",
+    description:
+      "Licenciatura em Química – UFSCar. Mestrado em Química – UFSCar. Doutor em Química – UESP. Professor titular – UESC atua nas áreas de ensino de química com ênfase em educação não formal e divulgação científica. Atuando no Caminhão com Ciência (Ciência Móvel). Coordena Projeto Cais ConsCiência. Pró-Reitor de Extensão – UESC,  2020 a 2023. Atualmente ocupa o cargo de Pró-reitor de Extensão da UESC. Coordenador do Departamento de Ciências Exatas – DCET/UESC.",
+  },
+  {
+    name: "Profa. Núbia Regina Moreira",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/nubia.png",
+    description:
+      "Graduada em Ciências Sociais – UFRJ; Mestra em Sociologia pela UECAMP; Doutora em Sociologia – UNB. Professora Titular da Universidade Estadual do Sudoeste da Bahia - UESB. Líder do Grupo de Pesquisa Oju Obinrin Observatório de Mulheres Negras (UESB). Autora do livro A Organização das Feministas Negras no Brasil já em 2ª ed. (2018).",
+  },
 ];
 
 const root = document.querySelector("#programacao");

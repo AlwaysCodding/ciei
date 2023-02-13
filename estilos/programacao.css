@@ -20,13 +20,13 @@
 }
 
 .divMarcador{
-  height: 1px;
-  width: 3px;
+  height: 15px;
+  width: 15px;
   border: 2px solid #3666AF;
-  box-shadow: 0px 0px 5px 3px rgba(79, 112, 246, 0.444); /*sombra interna*/
-  padding: 10px;
-  opacity: 0.7;
-  margin-right: 10px;
+  opacity: 0.8;
+  margin-right: 15px;
+  margin-top: 2px;
+  background-color:#ccc;
 }
 
 .card {
