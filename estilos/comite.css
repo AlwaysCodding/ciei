@@ -17,6 +17,10 @@ p {
   text-align: left;
 }
 
+img {
+  margin-right: 10px;
+}
+
 @media (max-width: 480px) {
   .comite-organizador{
     display: inline;
