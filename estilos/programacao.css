@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   margin-bottom: 40px;
 }
 
@@ -27,6 +26,7 @@
   box-shadow: 0px 0px 5px 3px rgba(79, 112, 246, 0.444); /*sombra interna*/
   padding: 10px;
   opacity: 0.7;
+  margin-right: 10px;
 }
 
 .card {
@@ -75,4 +75,5 @@
     margin:0 0 0 7%;
     text-align: justify;
     line-height: 26px;
+    tab-size: 4;
   }
