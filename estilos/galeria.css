@@ -23,9 +23,10 @@ td {
 }
 
 .lbox{
-    visibility: none;
+    visibility: hidden;
     opacity: 0;
 }
+
 .lbox:target{
     opacity: 1;
     visibility: visible;
@@ -42,17 +43,16 @@ td {
 .box_img{
     width: 1000px;
     margin: 150px auto;
-
+    
 }
 
 .img_center{
- 
-    display: flex;
+    position: absolute;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     
 }
 
@@ -78,5 +78,5 @@ td {
 
 #close{
     top: 100px;
-    right: 2%;
+    right: 5%;
 }
