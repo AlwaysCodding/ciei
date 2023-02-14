@@ -150,6 +150,14 @@ const palestrantesNacionais = [
     description:
       "Doutora em Estudos Étnicos e Africanos – CEAO / UFBA. Mestre em Cultura e Memória – UNEB. Professora do Departamento de Ciências da Educação – DCIE e do Mestrado Profissional em Educação - PPGE. Integra o Grupo de Pesquisa em Política e História da Educação – GRUPPHED. E neste coordena a Linha III. População negra na Bahia: História da Educação e Ensino de História. Como pesquisadora desenvolve o projeto de Pesquisa nas Histórias da Educação, Racialização e Trabalho entre a escravidão e o pós-abolição no sul da Bahia: dos Soares Lopes à produção de narrativas para sala de aula?",
   },
+  {
+    name: "José Arlen Beltrão",
+    titulo: "",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/jose-arlen.png",
+    description:
+      "Graduado em Educação Física pela Universidade Estadual de Montes Claros. Mestre em Educação Física pela Universidade de Trás-os-Montes e Alto Douro e doutor em Educação pela Universidade Federal da Bahia (UFBA). Professor da rede básica de educação de Minas Gerais. Docente do Centro de Formação de Professores - CFP, da Universidade Federal do Recôncavo da Bahia - UFRB.",
+  },
 ];
 
 const divData = document.createElement("div");
