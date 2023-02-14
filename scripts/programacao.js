@@ -16,7 +16,7 @@ const palestrantesInternacionais = [
   },
 ];
 
-const root = document.querySelector("#programacao");
+const root = document.querySelector("#palestrantes");
 
 const divDataInter = document.createElement("div");
 divDataInter.classList.add("divData");
