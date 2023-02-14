@@ -135,6 +135,21 @@ const palestrantesNacionais = [
     description:
       "Doutoranda em Letras Linguagens e Representações pela Universidade Estadual de Santa Cruz – UESC; Mestre em Inovação Pedagógica - Universidade da Madeira em Portugal, especialista em Formação Pedagógica para a Educação Inclusiva pela UESC. Pedagoga – UESC. Aperfeiçoamento em Atendimento Educacional Especializado na área de Educação de Surdo. Professora na Educação Básica da SEC de Una/BA. Vice-diretora da Unidade da SEC de Itabuna - Bahia.",
   },
+  {
+    name: "Rosemary Lopes Soares da Silva",
+    titulo: "",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/rosemary.png",
+    description:
+      "PhD em Políticas Públicas e Formação Humana pelo PPFH/UERJ. Doutorado em Políticas Públicas e Formação Humana pelo PPFH/UERJ. Mestrado em Políticas Públicas e Desenvolvimento Regional – UFBA. Pedagogia. Coordena o Grupo de Estudos, Pesquisas e Experimentações Educacionais – GEPEE, da Diretoria de Formação e Experimentação dos Profissionais da Educação do Instituto Anísio Teixeira – IAT/DIRFE/SEC-BA.",
+  },
+  {
+    name: "Cristiane Batista da Silva Santos",
+    titulo: "",
+    image: "",
+    description:
+      "Doutora em Estudos Étnicos e Africanos – CEAO / UFBA. Mestre em Cultura e Memória – UNEB. Professora do Departamento de Ciências da Educação – DCIE e do Mestrado Profissional em Educação - PPGE. Integra o Grupo de Pesquisa em Política e História da Educação – GRUPPHED. E neste coordena a Linha III. População negra na Bahia: História da Educação e Ensino de História. Como pesquisadora desenvolve o projeto de Pesquisa nas Histórias da Educação, Racialização e Trabalho entre a escravidão e o pós-abolição no sul da Bahia: dos Soares Lopes à produção de narrativas para sala de aula?",
+  },
 ];
 
 const divData = document.createElement("div");
