@@ -158,6 +158,14 @@ const palestrantesNacionais = [
     description:
       "Graduado em Educação Física pela Universidade Estadual de Montes Claros. Mestre em Educação Física pela Universidade de Trás-os-Montes e Alto Douro e doutor em Educação pela Universidade Federal da Bahia (UFBA). Professor da rede básica de educação de Minas Gerais. Docente do Centro de Formação de Professores - CFP, da Universidade Federal do Recôncavo da Bahia - UFRB.",
   },
+  {
+    name: "José Valdir Santana",
+    titulo: "Dr.",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/jose-valdir.png",
+    description:
+      "Doutor em Antropologia Social pela Universidade Federal de São Carlos; Professor Titular da Universidade Estadual do Sudoeste da Bahia (UESB); professor nos Programas de Pós-Graduação em Ensino e Programa de Pós-graduação em Relações Étnicas e Contemporaneidade, pesquisa sobre: antropologia e educação, interculturalidade e educação, educação e relações étnicas, educação escolar indígena.",
+  },
 ];
 
 const divData = document.createElement("div");
