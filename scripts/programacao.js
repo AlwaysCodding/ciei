@@ -146,7 +146,8 @@ const palestrantesNacionais = [
   {
     name: "Cristiane Batista da Silva Santos",
     titulo: "",
-    image: "",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/cristiane-batista.png",
     description:
       "Doutora em Estudos Étnicos e Africanos – CEAO / UFBA. Mestre em Cultura e Memória – UNEB. Professora do Departamento de Ciências da Educação – DCIE e do Mestrado Profissional em Educação - PPGE. Integra o Grupo de Pesquisa em Política e História da Educação – GRUPPHED. E neste coordena a Linha III. População negra na Bahia: História da Educação e Ensino de História. Como pesquisadora desenvolve o projeto de Pesquisa nas Histórias da Educação, Racialização e Trabalho entre a escravidão e o pós-abolição no sul da Bahia: dos Soares Lopes à produção de narrativas para sala de aula?",
   },
@@ -165,6 +166,14 @@ const palestrantesNacionais = [
       "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/jose-valdir.png",
     description:
       "Doutor em Antropologia Social pela Universidade Federal de São Carlos; Professor Titular da Universidade Estadual do Sudoeste da Bahia (UESB); professor nos Programas de Pós-Graduação em Ensino e Programa de Pós-graduação em Relações Étnicas e Contemporaneidade, pesquisa sobre: antropologia e educação, interculturalidade e educação, educação e relações étnicas, educação escolar indígena.",
+  },
+  {
+    name: "Ivana Calheira Sampaio",
+    titulo: "",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/ivana-calheira.png",
+    description:
+      "Graduanda em Licenciatura Plena em História pela UESC. Atuou como bolsista PIBID. Membro no Grupo de Pesquisa em Política e História da Educação - GRUPPHED. Integrante do projeto de Iniciação Científica ''Histórias da Educação, Racialização e Trabalho entre a escravidão e o pós-abolição no sul da Bahia''.",
   },
 ];
 
