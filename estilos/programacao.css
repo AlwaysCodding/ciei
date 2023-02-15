@@ -1,32 +1,32 @@
-td,
-th {
+#programacao td, th {
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
 }
 
-td {
+#programacao td {
     text-align: center;
 }
 
-tr:nth-child(even) {
+#programacao tr:nth-child(even) {
     background-color: #eee;
 }
 
-th[scope='col'] {
+#programacao th[scope='col'] {
     background-color: #696969;
     color: #fff;
 }
 
-th[scope='row'] {
+#programacao th[scope='row'] {
+    width: 25%;
     background-color: #d7d9f2;
 }
 
-caption {
+#programacao caption {
     padding: 10px;
     caption-side: bottom;
 }
 
-table {
+#programacao table {
     border-collapse: collapse;
     border: 2px solid rgb(200, 200, 200);
     letter-spacing: 1px;

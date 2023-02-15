@@ -2,7 +2,8 @@ const palestrantesInternacionais = [
   {
     name: "José Pacheco (Portugal)",
     titulo: "Profº",
-    image: "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/jose-pacheco.png",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/jose-pacheco.png",
     description:
       "Mestre em Ciências da Educação pela Universidade do Porto - Portugal. Fundador da Escola da Ponte, em Portugal, referência mundial em inovação. Coordenou o projeto “Fazer a Ponte”, de 1976 a 2004. 1º Prêmio do “Concurso Experiências Inovadoras no Ensino”, promovido pelo Ministério da Educação. Coordenador Pedagógico da EcoHabitare Projetos, empresa social que visa promover uma educação conectada com as necessidades sociais do Século XXI. Autor de inúmeros livros e artigos sobre educação e dinamizador da gestão democrática.",
   },
@@ -30,17 +31,17 @@ newTextInter.textContent = "Palestrantes Internacionais";
 divDataInter.append(marcadorInter, newTextInter);
 root.append(divDataInter);
 
-palestrantesInternacionais.sort(function (a, b) {
-  var nomeA = a.name.toUpperCase();
-  var nomeB = b.name.toUpperCase();
-  if (nomeA < nomeB) {
-    return -1;
-  }
-  if (nomeA > nomeB) {
-    return 1;
-  }
-  return 0;
-});
+// palestrantesInternacionais.sort(function (a, b) {
+//   var nomeA = a.name.toUpperCase();
+//   var nomeB = b.name.toUpperCase();
+//   if (nomeA < nomeB) {
+//     return -1;
+//   }
+//   if (nomeA > nomeB) {
+//     return 1;
+//   }
+//   return 0;
+// });
 
 palestrantesInternacionais.forEach(function (palestranteInter) {
   const cardInter = document.createElement("div");
@@ -53,7 +54,7 @@ palestrantesInternacionais.forEach(function (palestranteInter) {
   infoInter.classList.add("info");
 
   const nameInter = document.createElement("h2");
-  nameInter.textContent = palestranteInter.titulo + " " + palestranteInter.name;
+  nameInter.textContent = palestranteInter.name;
 
   const descriptionInter = document.createElement("p");
   descriptionInter.textContent = palestranteInter.description;
@@ -212,7 +213,7 @@ palestrantesNacionais.forEach(function (palestrante) {
   info.classList.add("info");
 
   const name = document.createElement("h2");
-  name.textContent = palestrante.titulo + " " + palestrante.name;
+  name.textContent = palestrante.name;
 
   const description = document.createElement("p");
   description.textContent = palestrante.description;
