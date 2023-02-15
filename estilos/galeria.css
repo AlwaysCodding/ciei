@@ -12,7 +12,7 @@
    
 }
 
-tr:nth-child(even){
+.tr_galeria:nth-child(even){
     background-color: transparent;
 }
 
