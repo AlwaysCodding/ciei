@@ -71,6 +71,9 @@ p, pre {
     #location {
         height: 100vh;
     }
+    .titulo {
+        margin: 20px 5vw;
+    }
 }
 
 /* RESPONSIVIDADE FIM */
