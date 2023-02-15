@@ -24,13 +24,20 @@
   text-align: left;
 }
 
-img {
-  margin-right: 10px;
+.organizador-foto-nome img {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
 }
 
 @media (max-width: 480px) {
   .comite-organizador{
     display: inline;
     font-size: 14px;
+  }
+
+  .organizador-foto-nome {
+    width: 100%;
+    margin-top: 10px;
   }
 }
