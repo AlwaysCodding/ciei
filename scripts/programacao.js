@@ -2,7 +2,7 @@ const palestrantesInternacionais = [
   {
     name: "José Pacheco (Portugal)",
     titulo: "Profº",
-    image: "",
+    image: "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/jose-pacheco.png",
     description:
       "Mestre em Ciências da Educação pela Universidade do Porto - Portugal. Fundador da Escola da Ponte, em Portugal, referência mundial em inovação. Coordenou o projeto “Fazer a Ponte”, de 1976 a 2004. 1º Prêmio do “Concurso Experiências Inovadoras no Ensino”, promovido pelo Ministério da Educação. Coordenador Pedagógico da EcoHabitare Projetos, empresa social que visa promover uma educação conectada com as necessidades sociais do Século XXI. Autor de inúmeros livros e artigos sobre educação e dinamizador da gestão democrática.",
   },
