@@ -54,13 +54,14 @@ p, pre {
     align-items: center;
     margin: 30px 30vw;
     gap: 20px;
+    font-size: 1.7em;
 }
 
 .titulo::before,
 .titulo::after {
     content: '';
     position: relative;
-    height: 1px;
+    height: 2px;
     background: rgba(0, 0, 0, 0.26);
     min-width: 50px;
     flex-grow: 1;

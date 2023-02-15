@@ -2,3 +2,9 @@
     text-align: justify;
     tab-size: 4;
 }
+
+@media (max-width: 1200px) {
+    .apresentacao-conteudo{
+        width: 90%;
+    }
+}
