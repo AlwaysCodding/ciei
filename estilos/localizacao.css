@@ -1,13 +1,13 @@
 #localizacao {
-    height: 70vh;
-    margin-bottom: 200px;
+    height: 100vh;
 }
 
 #mapa {
-    height: 100%;
+    height: calc( 100vh - 321px);
     border-top: 8px solid #D9D9D9;
     border-bottom: 8px solid #D9D9D9;
 }
+
 #content {
     width: 150px;
     text-align:center;
