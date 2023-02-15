@@ -124,6 +124,10 @@ nav.show ul.grid {
     gap: 4rem;
 }
 
+ul.grid {
+    /**/
+}
+
 .toggle {
     color: var(--base-color);
     font-size: 1.5rem;
@@ -149,7 +153,7 @@ nav.show div.icon-close {
     display: none !important;
     flex-direction: column;
     position: absolute;
-    background-color: #fff;
+    background-color: var(--body-color);
     top: 50px;
     height: 85px;
     width: 150px;
