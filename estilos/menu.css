@@ -64,6 +64,9 @@ nav {
 
 nav ul li {
     text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li a {
@@ -125,7 +128,10 @@ nav.show ul.grid {
 }
 
 ul.grid {
-    /**/
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin:0;
 }
 
 .toggle {
@@ -154,15 +160,34 @@ nav.show div.icon-close {
     flex-direction: column;
     position: absolute;
     background-color: var(--body-color);
-    top: 50px;
-    height: 85px;
+    top: 71px;
+    height: auto;
     width: 150px;
     padding: 15px;
-    margin-left: -75px;
+    margin-left: -15px;
+    border-radius: 0 0 4px 4px;
+    border-width: 0 1px 1px 1px;
+    border-color: #e4e4e4;
+    border-style: solid;
+}
+
+.submenu a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--base-color);
+    position: absolute;
+    left: 0;
+    bottom: -0.7rem;
+    transition: width 0.2s;
 }
 
 li:hover ul{
     display: flex !important;  
+}
+
+#comite i{
+    margin-left: 15px;
 }
 
 /*========= RESPONSIVIDADE =========*/

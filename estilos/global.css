@@ -55,6 +55,7 @@ p, pre {
     margin: 30px 30vw;
     gap: 20px;
     font-size: 1.7em;
+    padding-top: 72px;
 }
 
 .titulo::before,
