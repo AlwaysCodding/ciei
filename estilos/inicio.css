@@ -2,10 +2,10 @@
 .banner {
   height: 70vh;
   position: relative;
-  background-color: var(--base-color);
   overflow: hidden;
   border-radius: 4px;
   margin: auto;
+  background-color: #e4cbfc;
 }
 
 .imagem {
@@ -14,9 +14,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-mask-image: -webkit-linear-gradient(right,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.05)75%);
-  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.05)75%);
+  -webkit-mask-image: -webkit-linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.05)90%);
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.05)90%);
 }
+
+
 
 .botoes {
   display: flex;
@@ -27,8 +29,13 @@
   position: absolute;
 }
 
+.botoes h1 {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
 .button {
-  background-color: hsl(var(--hue) 36% 30%);
+  background-color: #3666AF;
   color: var(--text-color-light);
   height: 3.5rem;
   display: inline-flex;
@@ -54,7 +61,7 @@
 }
 
 .button:hover {
-  background: var(--base-color-alt);
+  background: #6A8DC3;
 }
 
 @media (max-width: 1200px) {

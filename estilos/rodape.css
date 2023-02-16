@@ -46,11 +46,11 @@
 }
 
 .voltar-para-topo {
-  background-color: #38322e;
+  background-color: var(--base-color);
   border-radius: 65px;
   bottom: 14px;
-  box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
-  color: var(--base-color);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 5px;
+  color: var(--text-color-light);
   cursor: pointer;
   height: 40px;
   position: fixed;
