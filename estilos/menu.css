@@ -74,6 +74,15 @@ nav ul li a {
     position: relative;
 }
 
+nav ul li a i {
+    margin-left: 15px;
+}
+nav ul li a img {
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 4px;
+}
+
 nav ul li a:hover,
 nav ul li a.active {
     color: var(--base-color);
@@ -162,7 +171,7 @@ nav.show div.icon-close {
     background-color: var(--body-color);
     top: 71px;
     height: auto;
-    width: 150px;
+    width: auto;
     padding: 15px;
     margin-left: -15px;
     border-radius: 0 0 4px 4px;
@@ -184,10 +193,6 @@ nav.show div.icon-close {
 
 li:hover ul{
     display: flex !important;  
-}
-
-#comite i{
-    margin-left: 15px;
 }
 
 /*========= RESPONSIVIDADE =========*/

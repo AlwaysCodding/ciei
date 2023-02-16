@@ -10,7 +10,7 @@ function initMap() {
     const marker = new google.maps.Marker({
         position: myLatLng,
         map,
-        title: "Evento CIEI",
+        title: "Evento CCE",
     });
 
     const contentString =
