@@ -176,6 +176,22 @@ const palestrantesNacionais = [
     description:
       "Graduanda em Licenciatura Plena em História pela UESC. Atuou como bolsista PIBID. Membro no Grupo de Pesquisa em Política e História da Educação - GRUPPHED. Integrante do projeto de Iniciação Científica ''Histórias da Educação, Racialização e Trabalho entre a escravidão e o pós-abolição no sul da Bahia''.",
   },
+  {
+    name: "Adriana Vitória Cardoso Lopes",
+    titulo: "",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/adriana-vitoria.png",
+    description:
+      "Mestre em Educação (UESC), Professora do Instituto Federal de Educação Ciência e Tecnologia Baiano – IF Baiano, integrante do Grupo de Pesquisa em Educação Física Escolar e Esporte (UESC).",
+  },
+  {
+    name: "Maria de Fátima de Andrade Ferreira",
+    titulo: "",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/maria-de-fatima.png",
+    description:
+      "Pós-Doutora em Antropologia Social e Doutora em Educação (UFBA); Professora Titular da Universidade Estadual do Sudoeste da Bahia (UESB); Docente  do Programa de Pós-Graduação Doutorado em Ensino da Rede Nordeste de Ensino (RENOEN) e do Programa de Pós-Graduação Mestrado em Ensino (PPGEN); Coordena o Núcleo de Pesquisa e Extensão Gestão em Educação e Estudos Transdisciplinares (NUGEET).",
+  },
 ];
 
 const divData = document.createElement("div");
