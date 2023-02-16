@@ -7,6 +7,10 @@
   justify-content: end;
 }
 
+.colunas{
+  margin-right: 20px;
+}
+
 .coluna-icones{
   display: flex;
   align-items: center;
