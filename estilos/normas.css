@@ -32,6 +32,60 @@
     margin-right: 40px;
 }
 
+.tabela-datas-importantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#normas table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    max-width: 1000px;
+    margin-bottom: 35px;
+    width: 100%;
+
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #222;
+    line-height: 26px;
+}
+
+#normastd, th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+#normas td {
+    width: 75%;
+}
+
+#normas tr:nth-child(even) {
+    background-color: #eee;
+}
+
+#normas th[scope='col'] {
+    background-color: #696969;
+    color: #fff;
+}
+
+#normas th[scope='row'] {
+    width: 20%;
+    background-color: #d7d9f2;
+}
+
+#normas caption {
+    padding: 10px;
+    caption-side: top;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
 @media (max-width: 1200px) {
     .palcoLancamento{
         justify-content: center;
