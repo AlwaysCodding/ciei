@@ -192,6 +192,14 @@ const palestrantesNacionais = [
     description:
       "Pós-Doutora em Antropologia Social e Doutora em Educação (UFBA); Professora Titular da Universidade Estadual do Sudoeste da Bahia (UESB); Docente  do Programa de Pós-Graduação Doutorado em Ensino da Rede Nordeste de Ensino (RENOEN) e do Programa de Pós-Graduação Mestrado em Ensino (PPGEN); Coordena o Núcleo de Pesquisa e Extensão Gestão em Educação e Estudos Transdisciplinares (NUGEET).",
   },
+  {
+    name: "Ezequiel Westphal",
+    titulo: "",
+    image:
+      "https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/ezequiel-westphal.png",
+    description:
+      "Doutor e Pós-Doutor em Sociologia - UFPR. Mestre em Ciências Sociais Aplicadas - UEPG. Especialista em História do Brasil: cultura e poder - UFPR. Bacharel e Licenciado em Ciências Sociais - PUCPR. Licenciado em História - UFPR. Superintendente da Educação Profissional e Tecnológica na Secretaria da Educação do Estado da Bahia.",
+  },
 ];
 
 const divData = document.createElement("div");
