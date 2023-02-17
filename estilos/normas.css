@@ -85,6 +85,14 @@
     margin-bottom: 20px;
 }
 
+#h4-subtitulo {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
 
 @media (max-width: 1200px) {
     .palcoLancamento{
