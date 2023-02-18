@@ -179,6 +179,11 @@ li:hover ul{
     display: flex !important;  
 }
 
+.submenu img {
+    width: 150px;
+    height: 75px;
+}
+
 /*========= RESPONSIVIDADE =========*/
 
 @media (min-width: 1200px) {
