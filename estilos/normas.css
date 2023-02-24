@@ -20,14 +20,26 @@
     background-color: #fff;
 }
 
-.palcoLancamento img{
+.imagem-esquerda{
     position: absolute;
     transform: rotate(2deg); 
     left:23%;
     margin-top: -30px;
 }
 
-.palcoLancamento p{
+.imagem-direita{
+    position: absolute;
+    transform: rotate(2deg); 
+    right:23%;
+    margin-top: -30px;
+}
+
+.texto-direita{
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.texto-esquerda{
     margin-left: 200px;
     margin-right: 40px;
 }
