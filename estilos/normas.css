@@ -37,11 +37,20 @@
 .texto-direita{
     margin-left: 50px;
     margin-right: 200px;
+    text-align: justify;
 }
 
 .texto-esquerda{
     margin-left: 200px;
     margin-right: 40px;
+    text-align: justify;
+}
+
+.p-subtitulo {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -20px;
+    margin-top: -5px;
 }
 
 .tabela-datas-importantes {
@@ -103,6 +112,14 @@
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 20px; 
+}
+
+.td-texto {
+    text-align: center;
+}
+
+.th-texto {
+    text-align: justify;
 }
 
 
