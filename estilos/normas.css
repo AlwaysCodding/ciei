@@ -22,29 +22,28 @@
 
 .imagem-esquerda{
     position: absolute;
-    transform: rotate(2deg); 
+    transform: rotate(4deg); 
     left:23%;
     margin-top: -30px;
+}
+.texto-esquerda{
+    margin-left: 200px;
+    margin-right: 40px;
+    text-align: justify;
 }
 
 .imagem-direita{
     position: absolute;
-    transform: rotate(2deg); 
+    transform: rotate(-4deg); 
     right:23%;
     margin-top: -30px;
 }
-
 .texto-direita{
     margin-left: 50px;
     margin-right: 200px;
     text-align: justify;
 }
 
-.texto-esquerda{
-    margin-left: 200px;
-    margin-right: 40px;
-    text-align: justify;
-}
 
 .p-subtitulo {
     text-align: center;
@@ -55,10 +54,13 @@
 
 .tabela-datas-importantes {
     display: flex;
+    width: 90%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #normas table {
@@ -136,6 +138,7 @@
 
     .palcoLancamento p{
         margin-left: 40px;
+        margin-right: 40px;
         margin-bottom: 0px;
     }
 }
