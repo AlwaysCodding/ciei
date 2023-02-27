@@ -14,7 +14,7 @@ function initMap() {
     });
 
     const contentString =
-        '<div id="content"><h4>I CONGRESSO DE CIÊNCIAS DA EDUCAÇÃO: CONSTRUINDO PROPOSTAS NA PESQUISA, ENSINO E NA EXTENSÃO CCE – UESC / 2023</h4><img src="https://crm.intellisys.com.br/IMG/Intellisys/Banner/Teste/ColoridaPequena.svg" alt="logo" style="height: 75px;width: 150px;"></div>';
+        '<div id="content"><h4>I CONGRESSO DE CIÊNCIAS DA EDUCAÇÃO: CONSTRUINDO PROPOSTAS NA PESQUISA, ENSINO E NA EXTENSÃO CCE – UESC / 2023</h4><img src="../arquivos/geral/ColoridaPequena.svg" alt="logo" style="height: 75px;width: 150px;"></div>';
 
     const infowindow = new google.maps.InfoWindow({
         content: contentString,
