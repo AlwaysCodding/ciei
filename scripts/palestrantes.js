@@ -64,7 +64,7 @@ palestrantesInternacionais.forEach(function (palestranteInter) {
 
 const palestrantesNacionais = [
   {
-    name: "Luzi Borges",
+    name: "Luzineide Borges",
     titulo: "Profª",
     image: "../arquivos/palestrantes/luzi_borges.jpg",
     description:
@@ -97,13 +97,6 @@ const palestrantesNacionais = [
     image: "../arquivos/palestrantes/tome.jpg",
     description:
       "Mestre em educação pelo Programa de Mestrado Profissional em Educação Profissional e Tecnológica em rede nacional – PROFEPT, com foco na curricularização da extensão. Bacharel em Geografia pela Universidade de Brasília (2013). Servidor técnico administrativo em educação no Instituto Federal de Santa Catarina - IFSC. Extensionista. Um dos autores do livro ''Caminhos para Curricularização da Extensão''.",
-  },
-  {
-    name: "Mille Caroline Fernandes - Profª Educação Básica",
-    titulo: "Profª",
-    image: "../arquivos/palestrantes/mille-caroline.jpg",
-    description:
-      "Doutora e Mestre em Educação e Contemporaneidade (PPGEduc/UNEB). Professora de História da África no Ensino Fundamental II do Município de Nazaré/BA. Pesquisadora do Grupo Memória da Educação na Bahia (PROMEBA/ PPGEduc/UNEB). É membro e vice-coordenadora do Núcleo de Estudos Africanos e Afrobrasileiros em Línguas e Culturas (NGEAALC/UNEB).",
   },
   {
     name: "Neurivaldo José de Guzzi Filho",
